@@ -46,7 +46,6 @@ function productTemplate(product) {
                     <h5 class="ribon">${Math.round((product.price - product.final_price) / product.price * 100) } Off</h5>
 
                 </div>
-
                 <div class="bottom-info flex flex-column flex-center">
                     <h4><span id="name">${product.name}</span> </h4>
                     <p><span id="price">${product.price}</span><span id="sale">${product.final_price}</span> + Free Shipping</p>
@@ -55,7 +54,6 @@ function productTemplate(product) {
                             <img class="category-card owl-item" src="${product.img_front}">
                             <img class="category-card owl-item" src="${product.img_side}">
                             <img class="category-card owl-item" src="${product.img_angle}">
-
                         </div>
                     </div>
                     <a href="${product.link}" id="button-product">SHOP NOW </a>
