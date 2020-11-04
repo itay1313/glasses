@@ -43,7 +43,7 @@ function productTemplate(product) {
     return `
     <div class="item flex-column flex-between">
                 <div class="top-info flex flex-between">
-                    <h5 class="ribon">${Math.round((product.price - product.final_price) / product.price * 100) } Off</h5>
+                    <h5 class="ribon">${Math.round((product.price - product.final_price) / product.price * 100) }% Off</h5>
 
                 </div>
                 <div class="bottom-info flex flex-column flex-center">
