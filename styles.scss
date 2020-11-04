@@ -125,7 +125,7 @@ body {
         padding: 15px 30px;
         width: 315px;
         align-self: center;
-        font-size: 13px;
+        font-size: var(--font-size-s);
         font-weight: 600;
         display: flex;
         align-items: center;
@@ -182,19 +182,19 @@ a#button-restart {
             padding: var(--space-l);
             h4 {
                 color: #212124;
-                font-size: 20px;
+                font-size: var(--font-size-xl);
                 line-height: 30px;
                 font-weight: 700;
                 margin-bottom: 5px;
             }
             p {
                 color: #212124;
-                font-size: 14px;
+                font-size: var(--font-size-s);
                 display: flex;
                 align-items: center;
                 #sale {
                     font-weight: 700;
-                    font-size: 18px;
+                    font-size: var(--font-size-s);
                     margin: 0 5px;
                     color: var(--primary);
                 }
@@ -214,7 +214,7 @@ a#button-restart {
                 padding: 15px 30px;
                 width: 315px;
                 align-self: center;
-                font-size: 13px;
+                font-size: var(--font-size-s);
                 font-weight: 600;
                 display: flex;
                 align-items: center;
