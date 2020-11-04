@@ -48,7 +48,7 @@ function productTemplate(product) {
                 </div>
                 <div class="bottom-info flex flex-column flex-center">
                     <h4><span id="name">${product.name}</span> </h4>
-                    <p><span id="price">${product.price}</span><span id="sale">${product.final_price}</span> + Free Shipping</p>
+                    <p><span id="price">$${product.price}</span><span id="sale">$${product.final_price}</span> + Free Shipping</p>
                     <div class="carousel flex">
                         <div class="owl-carousel owl-theme">
                             <img class="category-card owl-item" src="${product.img_front}">
