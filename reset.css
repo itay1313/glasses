@@ -31,7 +31,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #fff;
     color: #212124;
-    font-size: 14px;
+    font-size: var(--font-size-s);
 }
 
 [tabindex="-1"]:focus {
